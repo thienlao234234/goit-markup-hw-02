@@ -87,18 +87,21 @@ ul {
 	background: rgb(77, 90, 229);
 }
 
-.nav {
+.navigation {
 	text-align: center;
 	display: inline-flex;
 	align-items: center;
 }
 
-.nav__point {
+.nav {
 	color: #2e2f42;
+	font-weight: 500;
 	font-family: 'Outfit', sans-serif;
 	text-decoration: none;
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 	font-style: normal;
 	padding: 0 40px;
 }
@@ -205,6 +208,11 @@ ul {
 }
 
 .list {
+	list-style: none;
+}
+
+.list__portfolio {
+
 	display: flex;
 	justify-content: center;
 	padding: 20px 0;
