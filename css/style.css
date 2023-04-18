@@ -19,6 +19,26 @@ body {
 	text-decoration: none;
 }
 
-.link__part {
+.logo__part {
 	color: #2e2f42;
+}
+
+.list {
+	list-style: none;
+}
+
+.part {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.part:hover {
+	color: #404bbf;
+}
+
+.part:focus {
+	color: #404bbf;
 }
