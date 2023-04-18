@@ -1,12 +1,5 @@
-:root {
-	--color-iris: #4d5ae5;
-}
-
 body {
 	margin: 0;
-	font-family: "Roboto", sans-serif;
-	color: #434455;
-	background-color: #FFFFFF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,7 +42,6 @@ ul {
 
 .p__description {
 	padding: 0 20px;
-	color: #2e2f42;
 }
 
 .button {
@@ -93,15 +85,12 @@ ul {
 	align-items: center;
 }
 
-.list {
+.nav__point {
 	color: #2e2f42;
-	font-weight: 500;
 	font-family: 'Outfit', sans-serif;
 	text-decoration: none;
 	text-align: center;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
+	font-size: 20px;
 	font-style: normal;
 	padding: 0 40px;
 }
@@ -112,18 +101,15 @@ ul {
 }
 
 .logo {
-	color: #2e2f42;
+	color: rgb(77, 90, 229);
 }
 
-.link {
-	color: #4d5ae5;
+.logo__button {
+	color: #2e2f42;
 	text-decoration: none;
-	font-family: "Raleway", sans-serif;
-	font-weight: 800;
+	font-family: 'Raleway';
 	text-transform: uppercase;
-	font-size: 18px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
+	font-size: 30px;
 }
 
 .logo__button2 {
@@ -208,11 +194,6 @@ ul {
 }
 
 .list {
-	list-style: none;
-}
-
-.list__portfolio {
-
 	display: flex;
 	justify-content: center;
 	padding: 20px 0;
@@ -235,5 +216,8 @@ ul {
 
 .list__description {
 	padding: 5px 10px;
-	color: #2e2f42;
+}
+
+.link {
+	margin: 20px;
 }
