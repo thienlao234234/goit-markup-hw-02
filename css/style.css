@@ -129,3 +129,35 @@ body {
 	text-transform: capitalize;
 	color: #2e2f42;
 }
+
+.section__four {
+	background-color: #F4F4FD;
+}
+
+.section__four__title {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #2e2f42;
+}
+
+.section__four__title {
+	background-color: #FFFFFF;
+}
+
+.section__four__part__title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.section__four__part__description {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
