@@ -108,15 +108,18 @@ ul {
 }
 
 .logo {
-	color: rgb(77, 90, 229);
+	color: #4d5ae5;
 }
 
 .logo__button {
 	color: #2e2f42;
 	text-decoration: none;
-	font-family: 'Raleway';
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
 }
 
 .logo__button2 {
