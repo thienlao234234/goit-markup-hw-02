@@ -39,7 +39,7 @@ body {
 	list-style: none;
 }
 
-.part {
+.part__one {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -55,7 +55,7 @@ body {
 	color: #434455;
 }
 
-.part:hover {
+.part__one:hover {
 	color: #404bbf;
 }
 
@@ -63,7 +63,7 @@ body {
 	color: #404bbf;
 }
 
-.part:focus {
+.part__one:focus {
 	color: #404bbf;
 }
 
@@ -73,4 +73,35 @@ body {
 
 .contacts {
 	font-style: normal
+}
+
+.section__one {
+	background-color: #2e2f42;
+}
+
+.section__one__title {
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+
+.section__one__button {
+	background-color: #4D5AE5;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.section__one__button:hover {
+	background-color: #404BBF;
+}
+
+.section__one__button:focus {
+	background-color: #404BBF;
 }
