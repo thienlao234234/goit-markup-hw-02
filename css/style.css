@@ -163,7 +163,7 @@ body {
 }
 
 .footer {
-	background-color: #2e2f42 var(--main-txt-clr);
+	background-color: var(--main-txt-clr);
 }
 
 .footer__logo {
