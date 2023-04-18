@@ -87,13 +87,13 @@ ul {
 	background: rgb(77, 90, 229);
 }
 
-.navigation {
+.nav {
 	text-align: center;
 	display: inline-flex;
 	align-items: center;
 }
 
-.nav {
+.list {
 	color: #2e2f42;
 	font-weight: 500;
 	font-family: 'Outfit', sans-serif;
