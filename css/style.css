@@ -179,3 +179,23 @@ body {
 .footer__logo__part {
 	color: #f4f4fd;
 }
+
+.portfolio__button {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+	background-color: #F4F4FD;
+}
+
+.portfolio__button:hover {
+	color: #FFFFFF;
+	background-color: #404BBF;
+}
+
+.portfolio__button:focus {
+	color: #FFFFFF;
+	background-color: #404BBF;
+}
