@@ -13,8 +13,8 @@
 
 body {
 	font-family: "Roboto", sans-serif;
-	color: #434455;
-	background-color: #FFFFFF;
+	color: var(--secondary-txt-clr);
+	background-color: var(--main-bg-clr);
 }
 
 .logo {
@@ -24,11 +24,11 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #4d5ae5;
+	color: var(--active-btn-clr);
 }
 
 .logo__part {
-	color: #2e2f42;
+	color: var(--main-txt-clr);
 }
 
 .link {
@@ -44,7 +44,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #2e2f42;
+	color: var(--main-txt-clr);
 }
 
 .part__two {
@@ -52,23 +52,23 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
+	color: var(--secondary-txt-clr);
 }
 
 .part__one:hover {
-	color: #404bbf;
+	color: var(--accent-color);
 }
 
 .part__two:hover {
-	color: #404bbf;
+	color: var(--accent-color);
 }
 
 .part__one:focus {
-	color: #404bbf;
+	color: var(--accent-color);
 }
 
 .part__two:focus {
-	color: #404bbf;
+	color: var(--accent-color);
 }
 
 .contacts {
@@ -76,7 +76,7 @@ body {
 }
 
 .section__one {
-	background-color: #2e2f42;
+	background-color: var(--main-txt-clr);
 }
 
 .section__one__title {
@@ -84,26 +84,26 @@ body {
 	line-height: 1.07;
 	text-align: center;
 	letter-spacing: 0.02em;
-	color: #ffffff;
+	color: var(--main-bg-clr);
 }
 
 .section__one__button {
-	background-color: #4D5AE5;
+	background-color: var(--active-btn-clr);
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	color: #ffffff;
+	color: var(--main-bg-clr);
 	cursor: pointer;
 }
 
 .section__one__button:hover {
-	background-color: #404BBF;
+	background-color: var(--accent-color);
 }
 
 .section__one__button:focus {
-	background-color: #404BBF;
+	background-color: var(--accent-color);
 }
 
 .section__two__menu__title {
@@ -111,14 +111,14 @@ body {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: #2e2f42;
+	color: var(--secondary-bg-clr);
 }
 
 .section__two__menu__description {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
+	color: var(--secondary-txt-clr);
 }
 
 .section__three__title {
@@ -127,11 +127,11 @@ body {
 	text-align: center;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
-	color: #2e2f42;
+	color: var(--secondary-bg-clr);
 }
 
 .section__four {
-	background-color: #F4F4FD;
+	background-color: var(--light-txt-clr);
 }
 
 .section__four__title {
@@ -140,11 +140,11 @@ body {
 	text-align: center;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
-	color: #2e2f42;
+	color: var(--main-txt-clr);
 }
 
 .section__four__part {
-	background-color: #FFFFFF;
+	background-color: var(--main-bg-clr);
 }
 
 .section__four__part__title {
@@ -152,18 +152,18 @@ body {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: #2e2f42;
+	color: var(--main-txt-clr);
 }
 
 .section__four__part__description {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
+	color: var(--secondary-txt-clr);
 }
 
 .footer {
-	background-color: #2e2f42;
+	background-color: #2e2f42 var(--main-txt-clr);
 }
 
 .footer__logo {
@@ -173,11 +173,11 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #4d5ae5;
+	color: var(--active-btn-clr);
 }
 
 .footer__logo__part {
-	color: #f4f4fd;
+	color: var(--light-txt-clr);
 }
 
 .portfolio__button {
@@ -186,19 +186,19 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	color: #4d5ae5;
-	background-color: #F4F4FD;
+	color: var(--active-btn-clr);
+	background-color: var(--light-txt-clr);
 	cursor: pointer;
 }
 
 .portfolio__button:hover {
-	color: #FFFFFF;
-	background-color: #404BBF;
+	color: var(--main-bg-clr);
+	background-color: var(--accent-color);
 }
 
 .portfolio__button:focus {
-	color: #FFFFFF;
-	background-color: #404BBF;
+	color: var(--main-bg-clr);
+	background-color: var(--accent-color);
 }
 
 .portfolio__title {
@@ -206,12 +206,12 @@ body {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: #2e2f42;
+	color: var(--main-txt-clr);
 }
 
 .portfolio__description {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
+	color: var(--secondary-txt-clr);
 }
