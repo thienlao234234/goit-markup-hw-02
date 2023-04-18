@@ -59,7 +59,15 @@ body {
 	color: #404bbf;
 }
 
+.part1:hover {
+	color: #404bbf;
+}
+
 .part:focus {
+	color: #404bbf;
+}
+
+.part1:focus {
 	color: #404bbf;
 }
 
