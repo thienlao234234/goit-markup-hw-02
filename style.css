@@ -49,6 +49,7 @@ ul {
 
 .p__description {
 	padding: 0 20px;
+	color: #2e2f42;
 }
 
 .button {
@@ -108,11 +109,11 @@ ul {
 }
 
 .logo {
-	color: #4d5ae5;
+	color: #2e2f42;
 }
 
-.logo__button {
-	color: #2e2f42;
+.link {
+	color: #4d5ae5;
 	text-decoration: none;
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
@@ -226,6 +227,7 @@ ul {
 
 .list__description {
 	padding: 5px 10px;
+	color: #2e2f42;
 }
 
 .link {
