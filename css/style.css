@@ -45,3 +45,7 @@ body {
 .part:focus {
 	color: #404bbf;
 }
+
+.contacts {
+	font-style: normal
+}
