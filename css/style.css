@@ -105,3 +105,18 @@ body {
 .section__one__button:focus {
 	background-color: #404BBF;
 }
+
+.section__two__menu__title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.section__two__menu__description {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
