@@ -1,5 +1,14 @@
 :root {
-
+	--primery-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --main-txt-clr: #2e2f42;
+    --secondary-txt-clr: #434455;
+    --light-txt-clr: #f4f4fd;
+    --teamcard-bg-clr: #f4f4fd;
+    --main-bg-clr: #ffffff;
+    --secondary-bg-clr: #2e2f42;
+    --accent-color: #404bbf;
+    --active-btn-clr: #4d5ae5;
 }
 
 body {
@@ -36,6 +45,14 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
+}
+
+.part1 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
 }
 
 .part:hover {
